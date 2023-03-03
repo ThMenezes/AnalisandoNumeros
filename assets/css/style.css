@@ -29,7 +29,11 @@ div {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
+}
+
+input {
+    padding: 10px;
 }
 
 div p {
@@ -46,8 +50,13 @@ div .botao {
     cursor: pointer;    
 }
 
+#resultado {
+    margin-top: 20px;
+}
+
 #lista {
-    width: 180px;    
+    width: 180px;
+    text-align: center;    
 }
 
 footer {    
@@ -55,4 +64,15 @@ footer {
     font-style: italic;
     font-size: 1.2rem;
     padding: 20px;
+}
+
+footer a {
+    color: #000000;
+}
+
+@media (max-width: 600px) {
+    section {
+        width: auto;
+        margin: auto 10px;
+    }
 }
